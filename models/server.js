@@ -1,17 +1,17 @@
 const express = require('express');
 const cors = require('cors');
-const { dbConection } = require('../db/config');
+const { dbConnection } = require('../db/config');
 
 class Server {
     constructor() {
-        this.app = expressI();
+        this.app = express();
         this.port = process.env.PORT;
 
-        this.conectarDataBase();
+        this.conectarDB();
     }
 
-    async conectarDataBase() {
-        await dbConection();
+    async conectarDB() {
+        await dbConnection();
     }
 
     listen() {
@@ -19,6 +19,7 @@ class Server {
             console.log(`Server is running on port ${this.port}`);
         });
     }
+
 }
 
 module.exports = Server;
