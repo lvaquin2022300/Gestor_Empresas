@@ -9,8 +9,8 @@ import userRoutes from '../src/usuario/user.routes.js';
 import empresasRoutes from '../src/empresas/empresas.routes.js';
 import empresaReporte from '../src/empresas/empresaReporte.js';
 
-class Server{
-    constructor(){
+class Server {
+    constructor() {
         this.app = express();
         this.port = process.env.PORT;
         this.usuarioPath = '/api/v1/users'
@@ -23,25 +23,25 @@ class Server{
         this.routes();
     }
 
-    async conectarDB(){
+    async conectarDB() {
         await dbConnection();
     }
 
-    middlewares(){
-        this.app.use(express.urlencoded({extended: false}));
+    middlewares() {
+        this.app.use(express.urlencoded({ extended: false }));
         this.app.use(cors());
         this.app.use(express.json());
         this.app.use(helmet());
         this.app.use(morgan('dev'));
     }
 
-    routes(){
+    routes() {
         this.app.use(this.usuarioPath, userRoutes);
         this.app.use(this.empresasPath, empresasRoutes);
         this.app.use(this.reportePath, empresaReporte);
     }
 
-    listen(){
+    listen() {
         this.app.listen(this.port, () => {
             console.log('Servidor corriendo correctamente en el puerto:', this.port);
         });
