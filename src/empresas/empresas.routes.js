@@ -28,9 +28,9 @@ router.get('/:order', [validarJWT, validarCampos], empresaFiltro);
 router.put(
   "/:id",
   [
-      check("id", "El id no es un formato válido de MongoDB").isMongoId(),
-      check("id").custom(existeEmpresaById),
-      validarCampos
+    check("id", "El id no es un formato válido de MongoDB").isMongoId(),
+    check("id").custom(existeEmpresaById),
+    validarCampos
   ], empresaPut);
 
 
