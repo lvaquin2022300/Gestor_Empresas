@@ -33,7 +33,7 @@ class Server {
         this.app.use(express.json());
         this.app.use(helmet());
         this.app.use(morgan('dev'));
-    }
+    } 
 
     routes() {
         this.app.use(this.usuarioPath, userRoutes);
