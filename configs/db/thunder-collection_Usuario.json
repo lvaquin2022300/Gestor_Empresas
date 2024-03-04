@@ -19,7 +19,7 @@
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"nombre\": \"4\",\n  \"email\": \"4@gmail.com\",\n  \"contra\": \"444444\"\n}",
+                "raw": "{\n  \"nombre\": \"Luis\",\n  \"email\": \"lvaquin@gmail.com\",\n  \"contra\": \"59722413\"\n}",
                 "form": []
             },
             "tests": []
@@ -52,7 +52,7 @@
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"email\": \"4@gmail.com\",\n  \"contra\": \"444444\"\n}",
+                "raw": "{\n  \"email\": \"lvaquin@gmail.com\",\n  \"contra\": \"59722413\"\n}",
                 "form": []
             },
             "tests": []

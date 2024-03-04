@@ -19,7 +19,7 @@
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"nombreE\": \"Guatechocolate\",\n  \"nivelImpacto\": \"Empresa nivel pueblito\",\n  \"años\": \"22\",\n  \"categoria\": \"chocolate\"\n}",
+                "raw": "{\n  \"nombreE\": \"UniveresalRods\",\n  \"nivelImpacto\": \"Empresa cooperativa\",\n  \"años\": \"20\",\n  \"categoria\": \"cooperativa\"\n}",
                 "form": []
             },
             "tests": []

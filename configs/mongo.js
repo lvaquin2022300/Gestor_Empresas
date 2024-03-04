@@ -29,6 +29,6 @@ export const dbConnection = async () => {
             maxPoolSize: 50
         });
     }catch(e){
-        console.log('Database connection failed', err)
+        console.log('Error al conectar la base de datos', err)
     }
 }
