@@ -1,0 +1,10 @@
+[{
+  "_id": {
+    "$oid": "65e539dfa2f781a2cc82de0f"
+  },
+  "nombreE": "Guatechocolate",
+  "nivelImpacto": "Empresa nivel pueblito",
+  "años": "22",
+  "categoria": "chocolate",
+  "__v": 0
+}]

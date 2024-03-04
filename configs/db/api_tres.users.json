@@ -1,0 +1,10 @@
+[{
+  "_id": {
+    "$oid": "65e539dba2f781a2cc82de0c"
+  },
+  "nombre": "7",
+  "email": "7@gmail.com",
+  "contra": "$2a$10$WFitdXPw/blizYCAgjEmGOGHlFrU0xLKPm.8jpp7kSKeKGXQl0fza",
+  "estado": true,
+  "__v": 0
+}]

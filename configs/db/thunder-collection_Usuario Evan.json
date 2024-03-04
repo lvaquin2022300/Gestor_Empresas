@@ -1,0 +1,61 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Usuario Evan",
+    "dateExported": "2024-03-01T15:15:02.346Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "f0047ae9-8b58-429c-8bb7-9eecd8195071",
+            "colId": "58036dfc-17e4-4cf7-a343-63e8fe4bfcd0",
+            "containerId": "",
+            "name": "postUsuario Evan",
+            "url": "http://localhost:3000/api/v1/users",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-01T14:19:25.903Z",
+            "modified": "2024-03-01T15:02:28.963Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"4\",\n  \"email\": \"4@gmail.com\",\n  \"contra\": \"444444\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "981bdb5e-446c-4773-976a-875925d4eae4",
+            "colId": "58036dfc-17e4-4cf7-a343-63e8fe4bfcd0",
+            "containerId": "",
+            "name": "getUsuario Evan",
+            "url": "http://localhost:3000/api/v1/users",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-03-01T14:40:28.013Z",
+            "modified": "2024-03-01T14:40:28.013Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "2f0afce1-8707-4f03-b85e-9cf031946aa4",
+            "colId": "58036dfc-17e4-4cf7-a343-63e8fe4bfcd0",
+            "containerId": "",
+            "name": "Login Evan ",
+            "url": "http://localhost:3000/api/v1/users/login",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-03-01T15:13:57.916Z",
+            "modified": "2024-03-01T15:13:57.916Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"4@gmail.com\",\n  \"contra\": \"444444\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

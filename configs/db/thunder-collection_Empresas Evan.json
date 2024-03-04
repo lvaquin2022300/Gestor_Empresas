@@ -1,0 +1,70 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Empresas Evan",
+    "dateExported": "2024-03-04T03:23:07.584Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "be35c43b-001a-4a99-8c30-b0ee8bad6b03",
+            "colId": "c6391d9a-87d6-484f-908f-32f2362bf28e",
+            "containerId": "",
+            "name": "Cuestionario Agregar Empresa",
+            "url": "http://localhost:3000/api/v1/empresa",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-04T02:38:27.532Z",
+            "modified": "2024-03-04T02:50:48.070Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombreE\": \"Guatechocolate\",\n  \"nivelImpacto\": \"Empresa nivel pueblito\",\n  \"años\": \"22\",\n  \"categoria\": \"chocolate\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "d1bf0969-74d1-4caf-9f00-d98775a05629",
+            "colId": "c6391d9a-87d6-484f-908f-32f2362bf28e",
+            "containerId": "",
+            "name": "get Por seleccion",
+            "url": "http://localhost:3000/api/v1/empresa/2",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-03-04T02:51:56.049Z",
+            "modified": "2024-03-04T03:13:10.103Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU1MzlkYmEyZjc4MWEyY2M4MmRlMGMiLCJpYXQiOjE3MDk1MjE5NzgsImV4cCI6MTcwOTUyNTU3OH0.h7MDjHchN2rRdyeD4rVhweLKhRylY4toTjHHGir7WTU"
+                }
+            ],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU1MzUwNTk3NmRlYTMzYjkwNjc1YWMiLCJpYXQiOjE3MDk1MjAxNTYsImV4cCI6MTcwOTUyMzc1Nn0.2gauQVUIqupMy7R66rSVPWE22ushH7RS5W_hkPbIfkY"
+            },
+            "tests": []
+        },
+        {
+            "_id": "b74f7ef7-61a1-4497-a805-95ee2a58455c",
+            "colId": "c6391d9a-87d6-484f-908f-32f2362bf28e",
+            "containerId": "",
+            "name": "generar Reporte en Exel",
+            "url": "http://localhost:3000/empresaAPI/v1/report",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-03-04T03:22:58.968Z",
+            "modified": "2024-03-04T03:22:58.968Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWU1MzlkYmEyZjc4MWEyY2M4MmRlMGMiLCJpYXQiOjE3MDk1MjE5NzgsImV4cCI6MTcwOTUyNTU3OH0.h7MDjHchN2rRdyeD4rVhweLKhRylY4toTjHHGir7WTU"
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
